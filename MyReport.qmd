@@ -1,5 +1,6 @@
 ---
 title: "Automated Reports InDiKo"
+author: "Marc Sparhuber, Sonja Hahn"
 subtitle: "Function Overview"
 bibliography: references.bib
 format:
