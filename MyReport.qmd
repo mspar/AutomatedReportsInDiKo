@@ -14,7 +14,8 @@ editor_options:
 
 ## **Introduction**
 
-> This package is the result of efforts to automatise the creation of recurring evaluations at a higher education institution. The following functions have been used to provide feedback for single workshops and lectures but also within the context of intervention studies. Feel free to use the code as you please and give us feedback! Work on a package including these functions is in progress.
+> This file is the result of efforts to automatise the creation of recurring evaluations at a higher education institution. The following functions have been used to provide feedback for single workshops and lectures containing a single measurement time point, but also pre- and post-tests. Feel free to use the code for your demands! We are open for feedback on the code and work on a package including these functions is in progress.
+
 > To provide an example of the function's capabilities, we use some random data and item labels from the technological knowledge scale which we adapted to German [@doi:10.1080/15391523.2009.10782544].
 
 ## **Necessary Libraries**
@@ -47,7 +48,7 @@ dsw
 
 ## **Functions**
 
-### Open Answers
+### Open ended answers
 
 > To show the capabilities of the open answers function we add a few fictional strings to our data, similary to how they may look when extracted from an open answers field in a survey. These include common writing patterns we have encountered, such as starting a new sub-section of a comment with a hyphen or a line break. The open answers function is made to display such comments closely to how they were written by the respondents. 
 
@@ -162,7 +163,7 @@ ppp(dsw$TK_mean, dsw$t, dsw$PersonID.m, "Technological Knowledge", 1,5) + legend
 
 ### Single Plots
 
-> These functions generate bar charts for an item at a single measurement point. The mean and standard deviation are calculated for each measurement point and plotted. The red line indicates the mean value of the item, which also shows the maximum possible value of a response option and can thus be used for visual comparison. N, SD and M are indicated in the plot. For the vertical bar chart, the item name is taken from the attribute() of the item and displayed on the left.
+> These functions generate bar charts for an item at a single measurement point. Additionally, the mean and standard deviation are calculated for each measurement point and plotted. The red line indicates the mean value of the item, which also shows the maximum possible value of a response option and can thus be used for visual comparison. N, SD and M are indicated in the plot. For the vertical bar chart, the item name is taken from the attribute() of the item and displayed on the left. For a similar, more complex presentation of data see [@Vetterlein_Sengewald_2015], but there are also cautionary notes.
 
 ```{r Einzelgrafik_Funktion}
 #| echo: true
