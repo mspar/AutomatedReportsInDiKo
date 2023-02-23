@@ -163,7 +163,7 @@ ppp(dsw$TK_mean, dsw$t, dsw$PersonID.m, "Technological Knowledge", 1,5) + legend
 
 ### Single Plots
 
-> These functions generate bar charts for an item at a single measurement point. Additionally, the mean and standard deviation are calculated for each measurement point and plotted. The red line indicates the mean value of the item, which also shows the maximum possible value of a response option and can thus be used for visual comparison. N, SD and M are indicated in the plot. For the vertical bar chart, the item name is taken from the attribute() of the item and displayed on the left. For a similar, more complex presentation of data see [@Vetterlein_Sengewald_2015], but there are also cautionary notes.
+> These functions generate bar charts for an item at a single measurement point. Additionally, the mean and standard deviation are calculated for each measurement point and plotted. The red line indicates the mean value of the item, which also shows the maximum possible value of a response option and can thus be used for visual comparison. *N*, *SD* and *M* are indicated in the plot. For the vertical bar chart, the item name is taken from the attribute() of the item and displayed on the left. For a similar, more complex presentation of data see @Vetterlein_Sengewald_2015, but see also @Correll_Gleicher_2014 for alternative ways to display uncertainity.
 
 ```{r Einzelgrafik_Funktion}
 #| echo: true
